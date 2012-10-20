@@ -10,6 +10,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class Search extends ListActivity {
+	// resultados de la busqueda recibidos del servidor mediante JSON
+	//aca podemos implementar un pullToRefreshh
+	
+	//por ahora trabajamos con una lista fija
 	String classes[] = { "CocaCola lata ", "CocaCola botella 500ml","CocaCola Light botella 500ml", "CocaCola Zero botella 500ml", "CocaCola botella 500ml" };
 
 	@Override

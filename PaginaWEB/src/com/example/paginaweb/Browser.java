@@ -17,6 +17,11 @@ public class Browser extends Activity implements OnClickListener {
     }
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
+		
+		
+		//enviar datos mediante JSON
+		
+		//por ahora lo que hace es abrir la siguiente ventana
 		try {
 			@SuppressWarnings("rawtypes")
 			Class menu = Class.forName("com.example.paginaweb.Search");

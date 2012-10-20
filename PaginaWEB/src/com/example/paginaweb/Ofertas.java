@@ -11,6 +11,9 @@ import android.widget.ListView;
 
 public class Ofertas extends ListActivity {
 	// estos son los resultados recibidos del servidor mediante JSON
+	//aca podemos implementar un pullToRefresh
+	
+	//por ahora trabajamos con una lista fija
 	String classes[] = { "Calculadora HP50G", "Computadora HP i7","Atun REAL caja x12" };
 
 	@Override
