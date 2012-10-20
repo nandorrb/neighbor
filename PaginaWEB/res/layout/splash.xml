@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D4A82"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tvAppName_Splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/etUser_Splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAppName_Splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPassword_Splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUser_Splash"
+        android:layout_below="@+id/etUser_Splash"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPassword_Splash"
+        android:layout_alignBottom="@+id/etPassword_Splash"
+        android:layout_toRightOf="@+id/etPassword_Splash"
+        android:text="@string/entrar_Splash" />
+
+    <TextView
+        android:id="@+id/tvUsuario_Splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etUser_Splash"
+        android:layout_alignBottom="@+id/etUser_Splash"
+        android:layout_marginRight="50dp"
+        android:layout_toLeftOf="@+id/etUser_Splash"
+        android:text="@string/tvUsuario_Splash" />
+
+    <TextView
+        android:id="@+id/tvPassword_Splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etPassword_Splash"
+        android:layout_alignBottom="@+id/etPassword_Splash"
+        android:layout_alignLeft="@+id/tvUsuario_Splash"
+        android:text="@string/tvPassword_Search" />
+
+    <CheckBox
+        android:id="@+id/checkBox_Splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="55dp"
+        android:text="@string/recordarsmarthphone_Splash" />
+
+    <TextView
+        android:id="@+id/tvQuestion_Splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/checkBox_Splash"
+        android:layout_marginRight="16dp"
+        android:text="@string/newAccountQuestion_Splash" />
+
+</RelativeLayout>
