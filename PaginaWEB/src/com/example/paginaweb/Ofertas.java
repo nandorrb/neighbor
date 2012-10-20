@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class Ofertas extends ListActivity {
+	// estos son los resultados recibidos del servidor mediante JSON
 	String classes[] = { "Calculadora HP50G", "Computadora HP i7","Atun REAL caja x12" };
 
 	@Override
