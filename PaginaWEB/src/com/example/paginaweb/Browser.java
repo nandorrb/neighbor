@@ -20,7 +20,7 @@ public class Browser extends Activity implements OnClickListener {
 		
 		
 		//enviar datos mediante JSON
-		
+		//test envio githublocalpck
 		//por ahora lo que hace es abrir la siguiente ventana
 		try {
 			@SuppressWarnings("rawtypes")
