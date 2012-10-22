@@ -12,6 +12,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+/*README
+Primera ventana en aparecer; login de usuarios, funciones: 
+mediante JSON, permitir que los usuarios accedan a su cuenta, o de no tenerlas crear una.
+*/
 
 public class Splash extends Activity implements OnClickListener {
 	Button btnAccess;
@@ -28,7 +32,7 @@ public class Splash extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.splash);
 
-		/*
+		/* //   BUG
 		 * user = (EditText) findViewById(R.id.tvUsuario_Splash); pass =
 		 * (EditText) findViewById(R.id.tvPassword_Splash); type =
 		 * Typeface.createFromAsset(this.getAssets(), "Origami.ttf"); tvAN =
