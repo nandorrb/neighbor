@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item
-        android:title="About Us"
-        android:id="@+id/aboutUs"
+  
+     <item
+        android:title="Change Place"
+        android:id="@+id/ChangePlace"
         android:numericShortcut="1"
         android:alphabeticShortcut="a"
         />

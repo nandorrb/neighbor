@@ -71,6 +71,17 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ChangePlace"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.CHANGEPLACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".Surfer"
             android:label="@string/title_activity_main"
             android:screenOrientation="landscape" >

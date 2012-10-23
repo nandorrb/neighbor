@@ -20,7 +20,7 @@ public final class R {
         public static final int icon_place=0x7f020003;
     }
     public static final class id {
-        public static final int aboutUs=0x7f08000d;
+        public static final int ChangePlace=0x7f08000d;
         public static final int btn=0x7f080005;
         public static final int btnSearch_Browser=0x7f080000;
         public static final int checkBox_Splash=0x7f080008;

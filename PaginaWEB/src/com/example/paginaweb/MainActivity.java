@@ -63,9 +63,9 @@ public class MainActivity extends TabActivity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// TODO Auto-generated method stub
 		switch (item.getItemId()) {
-		case R.id.aboutUs:
-		//	Intent i = new Intent("android.intent.action.ABOUT");
-		//	startActivity(i);
+		case R.id.ChangePlace:
+		Intent i = new Intent("android.intent.action.CHANGEPLACE");
+			startActivity(i);
 			break;
 		case R.id.preferences:
 		//	Intent p = new Intent("android.intent.action.PREFS");
